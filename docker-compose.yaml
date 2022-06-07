@@ -6,7 +6,7 @@ services:
       # This value must match the name of the postgres configuration block.
       POSTGRES_HOST: db
       POSTGRES_USER: postgres
-      GITHUB_TOKEN: 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
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
     ports:
       - '7007:7007'
 
