@@ -53,6 +53,6 @@ jobs:
           context: ./packages
           file: ./packages/backend/Dockerfile
           tags: |
-            lucamilan/backstage:backstage:latest
+            lucamilan/backstage:latest
           build-args: |
             image_version=1.0
