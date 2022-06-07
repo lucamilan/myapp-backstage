@@ -1,0 +1,17 @@
+version: '3'
+services:
+  backstage:
+    image: backstage
+    environment:
+      # This value must match the name of the postgres configuration block.
+      POSTGRES_HOST: db
+      POSTGRES_USER: postgres
+      GITHUB_TOKEN: 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
+    ports:
+      - '7007:7007'
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
