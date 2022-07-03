@@ -1,9 +1,9 @@
 app:
-  title: Scaffolded Backstage App
+  title: DevOps Heroes Backstage App
   baseUrl: http://localhost:3000
 
 organization:
-  name: Azure Day 2022
+  name: DevOps Heroes 2022
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
